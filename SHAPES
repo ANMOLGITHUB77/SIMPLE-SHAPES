@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#HOVERING_OVER_SHAPES {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.SHAPES {
+    width: 200px;
+    height: 200px;
+    background-color: #feffff;
+    border: 2px solid #000000;
+    margin: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+H1 {
+    font-weight: normal;
+}
+
+#SQUARE:hover {
+    transform: scale(.999);
+    background-color: #7c7cd4;
+}
+
+#CIRCLE:hover {
+    transform: scale(.999);
+    background-color: #70c880;
+}
+
+#RHOMBUS:hover {
+    transform: scale(.999);
+    background-color: #d47070;
+}
+
+#CIRCLE {
+    border-radius: 50%;
+}
+
+#RHOMBUS {
+    rotate: 45deg;
+    margin-top: 50PX;
+}
+
+#RHOMBUS H1 {
+    rotate: -45deg;
+}
